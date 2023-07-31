@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EvanNotFound</title>
+    <meta name="description" content="EvanNotFound的个人网页" />
+    <meta name="keywords" content="个人网页,博客,Evan" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- 引入 fullpage 全屏滚动 -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+    /> -->
+    <link rel="stylesheet" href="./css/fullpage.min.css" />
+    <!-- 引入animate动画 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- 自定义CSS -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="w">
+        <div class="logo">
+          <h1>
+            <a href="/index.html">EvanNotFound</a>
+          </h1>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li>
+              <a href="https://blog.wyun521.top/" target="_blank">Blog</a>
+            </li>
+            <li><a href="./pages/project.html">Project</a></li>
+            <li><a href="./pages/photos.html">Photos</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div id="fullpage" class="main">
+        <!-- welcome -->
+        <div id="welcome" class="section">
+          <section class="welcome flex-center">
+            <h2 class="hello title">Hey, I am Evan</h2>
+            <p class="job desc">a web developer <span>网页开发人员</span></p>
+          </section>
+        </div>
+
+        <!-- blog -->
+        <div class="section">
+          <section class="blog flex-center">
+            <h2 class="title">Blog</h2>
+            <p class="desc">一个使用Hexo搭建的博客</p>
+            <div class="btn">
+              <a href="#">查看</a>
+            </div>
+          </section>
+        </div>
+
+        <!-- project -->
+        <!-- 获取网站缩略图API -->
+        <!-- https://s0.wp.com/mshots/v1/juejin.cn?w=375&h=200 -->
+        <div class="section">
+          <section class="project flex-center">
+            <h2 class="title">Project</h2>
+            <ul class="items">
+              <li>
+                <div class="item-pic">
+                  <a href="https://xc-study.wyun521.top/" target="_blank">
+                    <img
+                      src="https://s0.wp.com/mshots/v1/xc-study.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">学成在线</div>
+              </li>
+              <li>
+                <div class="item-pic">
+                  <a href="https://v2-xc-study.wyun521.top/" target="_blank">
+                    <img
+                      src="https://s0.wp.com/mshots/v1/v2-xc-study.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">学成在线（Flex版）</div>
+              </li>
+              <li>
+                <div class="item-pic">
+                  <a
+                    href="https://shanghe-website.wyun521.top/"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://s0.wp.com/mshots/v1/shanghe-website.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">仿尚合官网</div>
+              </li>
+              <li>
+                <div class="item-pic">
+                  <a href="https://oppo-demo.wyun521.top/" target="_blank">
+                    <img
+                      src="https://s0.wp.com/mshots/v1/oppo-demo.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">仿OPPO官网</div>
+              </li>
+              <li>
+                <div class="item-pic">
+                  <a href="https://oppo-demo.wyun521.top/" target="_blank">
+                    <img
+                      src="https://s0.wp.com/mshots/v1/oppo-demo.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">仿OPPO官网</div>
+              </li>
+              <li>
+                <div class="item-pic">
+                  <a href="https://oppo-demo.wyun521.top/" target="_blank">
+                    <img
+                      src="https://s0.wp.com/mshots/v1/oppo-demo.wyun521.top?w=375&h=241"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="item-title">仿OPPO官网</div>
+              </li>
+            </ul>
+            <div class="btn">
+              <a href="#">查看</a>
+            </div>
+          </section>
+        </div>
+
+        <!-- photos -->
+        <div class="section">
+          <section class="photos flex-center">
+            <h2 class="title">Photos</h2>
+            <p class="desc">一些小片段</p>
+            <div class="btn">
+              <a href="#">查看</a>
+            </div>
+          </section>
+        </div>
+
+        <!-- about -->
+        <div class="section">
+          <section class="about flex-center">
+            <h2 class="title">About</h2>
+            <p class="desc">关于我的信息</p>
+            <div class="btn">
+              <a href="#">查看</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="setting" title="go top">
+      <a href="#welcome">↑</a>
+    </div>
+
+    <script src="./js/fullpage.min.js"></script>
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+      });
+    </script>
+  </body>
+</html>

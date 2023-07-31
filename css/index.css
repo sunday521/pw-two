@@ -1,0 +1,105 @@
+/* 首页样式 */
+/* 不显示 made by fullpage */
+.fp-warning,
+.fp-watermark {
+    display: none;
+}
+.title {
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.desc {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.btn a {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background-color: var(--blue);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+.setting {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    width: 42px;
+    height: 42px;
+    background-color: var(--red);
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+}
+
+
+
+.welcome {
+    background-color: var(--blank);
+}
+.blog {
+    background-color: var(--gray);
+}
+.project {
+    background-color: var(--blank);
+}
+.photos {
+    background-color: var(--gray);
+}
+.about {
+    background-color: var(--blank);
+}
+
+.project .items {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    /* 使用 center，然后给每个item添加左右边距，可以做到移动端适配 */
+    /* 使用 space-between 移动端会有问题 */
+    justify-content: center;
+    width: 80%;
+    height: 60vh;
+    /* 解决移动端适配 */
+    /* justify-content: space-between;
+    width: calc(100vw - 80px);
+    margin: 0 auto; */
+}
+.project li {
+    overflow: hidden;
+    position: relative;
+    margin: 0 20px 40px;
+}
+.project li:hover .item-title {
+    bottom: 0;
+}
+
+.item-pic {
+    width: 375px;
+    height: 241px;
+}
+
+.item-pic img {
+    width: 375px;
+}
+
+.item-title {
+    transition: all .3s;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    width: 375px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+}
